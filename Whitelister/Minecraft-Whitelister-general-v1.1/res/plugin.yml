@@ -1,0 +1,5 @@
+name: Whitelister
+version: 1.1
+main: com.fin.main.Main
+description: Allows users in a discord channel to submit one name at a time to be whitelisted on a server
+author: finlay.woolfson@gmail.com

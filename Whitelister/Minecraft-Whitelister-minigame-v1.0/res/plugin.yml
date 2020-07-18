@@ -1,0 +1,27 @@
+name: Whitelister
+version: 1.0
+main: com.fin.main.Main
+description: Chooses submissions from a discord channel and whitelists them on a server (designed for minigames)
+author: finlay.woolfson@gmail.com
+commands:
+   settimer:
+      description: Sets the time interval for whitelisting
+      
+   toggletimer:
+      description: toggles the whitelisting on and off
+      
+permissions:
+   whitelister.*:
+      default: op
+      description: all whitelister permissions
+      children:
+         whitelister.settimer: true
+         whitelister.toggletimer: true
+         
+   whitelister.settimer:
+      default: op
+      description: allows the timer to be set
+      
+   whitelister.toggletimer:
+      default: op
+      description: allows the timer to be toggled

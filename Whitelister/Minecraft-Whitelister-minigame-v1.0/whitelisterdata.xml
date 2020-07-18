@@ -1,0 +1,11 @@
+<?xml version = '1.0'?>
+<game>
+	<database>
+		<username>mcph804597</username>
+		<password>548c7d482a</password>
+		<port>3306</port>
+		<location>66.85.144.162</location>
+		<databasename>mcph804597</databasename>
+	</database>
+	<channelid>634667687233978390</channelid>
+</game>

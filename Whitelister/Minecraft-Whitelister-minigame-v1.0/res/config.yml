@@ -1,0 +1,3 @@
+whitelist_time_change_msg: 'Whitelist timer changed to <time>.'
+whitelist_time_change_err_msg: '&cError changing the whitelist timer.'
+timer_toggle_msg: 'Whitelist timer toggled <onoff>.'
